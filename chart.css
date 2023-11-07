@@ -1,0 +1,30 @@
+.chart-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.bar-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.bar {
+  height: 10px;
+  background-color: #3498db;
+  transition: width 0.5s;
+}
+
+.value {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.spacer {
+  width: 5px;
+}
